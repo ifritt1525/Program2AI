@@ -50,4 +50,3 @@ class dNA():
                     self.chromes = self.chromes[:idx] + '1' + self.chromes[idx+1:]
             if len(self.chromes) != 400:
                 print('ERROR MUTATED A dNA strand longer than 400 bits')
-
